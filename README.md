@@ -1,12 +1,12 @@
 # Task Management System
 
-🌟 Objective: 
+# Objective: 
 
 
 Develop a feature-rich Task Management System that demonstrates proficiency in software development, problem-solving, and understanding of real-world scenarios. The system should allow users to create, assign, track, and manage tasks efficiently. 
 
 
- Core Requirements:
+ # Core Requirements:
 
  
 ✅ User Authentication:
@@ -28,7 +28,7 @@ Develop a feature-rich Task Management System that demonstrates proficiency in s
 - Allow users to assign tasks to other registered users.
 
 - Implement a notification system to alert users when a task is assigned.
-- 
+  
 
 ✅ Dashboard:
 
@@ -40,12 +40,14 @@ Develop a feature-rich Task Management System that demonstrates proficiency in s
 - Created by the user.
 
 - Overdue tasks.
+  
 
 ✅ Search and Filter:
 
  - Search by task title or description.
 
  - Filter based on status, priority, and due date.
+   
 
 
 # Technical Specifications:
@@ -82,9 +84,9 @@ Install dependencies:
       npm install
  
 
-- Environment Setup:
+ Environment Setup:
 
-Create a .env file in both the frontend and backend directories and add the required environment variables. For example:
+   Create a .env file in both the frontend and backend directories and add the required environment variables. For example:
 
   -  Frontend (frontend/.env):
 
@@ -99,22 +101,22 @@ Create a .env file in both the frontend and backend directories and add the requ
        JWT_SECRET=your_jwt_secret
 
    
-- Run the application:
+Run the application:
 
-For the frontend:
+   For the frontend:
 
     cd frontend
     npm run dev
 
     
-For the backend:
+  For the backend:
 
 
     cd backend
     npm run dev
 
     
- - Access the app:
+ Access the app:
 
       Open your browser and navigate to http://localhost:3000 for the frontend.
       
