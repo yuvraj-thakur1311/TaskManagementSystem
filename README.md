@@ -42,9 +42,10 @@ Develop a feature-rich Task Management System that demonstrates proficiency in s
 - Overdue tasks.
 
 ✅ Search and Filter:
-Search by task title or description.
 
-Filter based on status, priority, and due date.
+ - Search by task title or description.
+
+ - Filter based on status, priority, and due date.
 
 
 # Technical Specifications:
@@ -63,24 +64,22 @@ Filter based on status, priority, and due date.
  
 Clone the repository:
 
-
- - git clone <repository-url>
- 
-- cd task-management-system
+    git clone <repository-url>
+        cd task-management-system
 
 
 Install dependencies:
 
 - For the frontend:
 
-    - cd frontend
-     - npm install
+      cd frontend
+      npm install
  
   
 - For the backend:
 
-    - cd backend
-    - npm install
+      cd backend
+      npm install
  
 
 - Environment Setup:
@@ -89,15 +88,15 @@ Create a .env file in both the frontend and backend directories and add the requ
 
   -  Frontend (frontend/.env):
 
-        - NEXT_PUBLIC_API_URL=http://localhost:5000/api
+         NEXT_PUBLIC_API_URL=http://localhost:5000/api
    
     
  - Backend (backend/.env):
 
-    
-    PORT=5000
-    DB_URI=mongodb://localhost:27017/task_manager
-    JWT_SECRET=your_jwt_secret
+       
+       PORT=5000
+       DB_URI=mongodb://localhost:27017/task_manager
+       JWT_SECRET=your_jwt_secret
 
    
 - Run the application:
