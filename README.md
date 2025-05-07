@@ -64,62 +64,63 @@ Develop a feature-rich Task Management System that demonstrates proficiency in s
 
  # Setup Instructions:
  
-Clone the repository:
+- Clone the repository:
 
       git clone <repository-url>
       cd task-management-system
 
 
-Install dependencies:
+- Install dependencies:
 
-- For the frontend:
+   - For the frontend:
 
-      cd frontend
-      npm install
+          cd frontend
+          npm install
  
   
-- For the backend:
+   - For the backend:
 
-      cd backend
-      npm install
+         cd backend
+         npm install
  
 
- Environment Setup:
+ - Environment Setup:
 
    Create a .env file in both the frontend and backend directories and add the required environment variables. For example:
 
-  -  Frontend (frontend/.env):
+      -  Frontend (frontend/.env):
 
-         NEXT_PUBLIC_API_URL=http://localhost:5000/api
+              NEXT_PUBLIC_API_URL=http://localhost:5000/api
    
     
- - Backend (backend/.env):
+      - Backend (backend/.env):
 
-       
-       PORT=5000
-       DB_URI=mongodb://localhost:27017/task_manager
-       JWT_SECRET=your_jwt_secret
+             
+             PORT=5000
+             DB_URI=mongodb://localhost:27017/task_manager
+             JWT_SECRET=your_jwt_secret
 
    
-Run the application:
+- Run the application:
 
-   For the frontend:
+     - For the frontend:
 
-    cd frontend
-    npm run dev
-
-    
-  For the backend:
-
-
-    cd backend
-    npm run dev
+              cd frontend
+              npm run dev
 
     
- Access the app:
+     - For the backend:
 
-      Open your browser and navigate to http://localhost:3000 for the frontend.
-      The backend API will be accessible at http://localhost:5000.
+
+             cd backend
+             npm run dev
+
+    
+ - Access the app:
+
+       Open your browser and navigate to http://localhost:3000 for the frontend.
+       The backend API will be accessible at http://localhost:5000.
+   
 
 # Approach Explanation:
 
